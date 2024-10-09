@@ -11,5 +11,10 @@ HTML5
 
 CSS3
 
+## How to Use
+To view the Netflix clone, simply go to the Github URL provided after the page has been published.
+
+URL: TBD
+
 ## Credits
 TroyInCode

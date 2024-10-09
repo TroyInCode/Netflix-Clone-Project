@@ -8,13 +8,25 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <script src="index.js"></script>
-    <main>
-      <div class="main-image">
+    <header>
+    <div id="lang-select">
+      <label name="language" for="language"></label>
+     <select id="language">
+    <option value="english">English</option>
+    <option value="spanish">Espanol</option>
+     </select>
+    </div>
 
-      <h1>Welcome to Netflix</h1>
-    
-      </div>
+    </header>
+    <main>
+
+      <h1>Unlimited movies, TV shows, and more</h1>
+      <p>Starts at 6.99. Cancel anytime.</p>
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <label for="email"></label>
+      <input type="email" id="email" value="useremail" class="enteremail">
+      <button>Get Started</button>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>

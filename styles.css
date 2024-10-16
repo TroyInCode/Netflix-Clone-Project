@@ -2,15 +2,12 @@ html {
 box-sizing: border-box;
 }
 
-header {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-image: url("./images/netlaptop1.jpg");
-    background-size: cover;
-    background-position: center;
-}
 
+body {
+    background-image: url("./images/netlaptop1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*Important Buttons*/
 
 #top-buttons {
@@ -29,3 +26,27 @@ header {
     height: 32px;
     width: 74px;
 }
+
+#language {
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 4px;
+    background-color: rgb(69, 67, 67);
+    color:rgba(237, 237, 237, 1);
+    width: 100px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/*Main Sign Up Information in Center of Page*/
+
+#netflix-signup {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Offset by 50% of its own height and width */
+    text-align: center;
+    color: whitesmoke; 
+}
+
+
+/*Important Images*/

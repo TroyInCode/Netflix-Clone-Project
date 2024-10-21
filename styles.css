@@ -19,7 +19,7 @@ box-sizing: border-box;
 #background-image {
     position: relative;
     height: 100vh;
-    background-image: url("images/Netflix-Background.webp");
+    background-image: url("images/Netflix-Background\ 2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -113,6 +113,8 @@ button:hover {
 
 /*Information after the main section*/
 
+/*First information card*/
+
 #learn-more-container {
     display: flex;
     flex-direction: row;
@@ -122,12 +124,36 @@ button:hover {
 
 #learn-more-card {
     border: 1px solid #ededf0;
-    height: 93px;
-    width: 75vw;
+    height: 94px;
+    width: 810px;
     border-radius: 8px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
-    background: linear-gradient(to right, #003eaa, #0060df);
+    background: linear-gradient(to right, #001f3f, #0074D9);
+    padding-right: 24px;
+    padding-left: 24px;
 }
+
+#learn-more-button {
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background-color: #5B5B66;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 115px;
+}
+
+#learn-more-card p {
+    font-size: 18px;
+}
+
+#learn-more-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Placeholder*/

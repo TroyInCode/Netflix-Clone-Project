@@ -144,6 +144,7 @@ button:hover {
     color: rgb(255, 255, 255);
     height: 40px;
     width: 115px;
+    font-weight: bold;
 }
 
 #learn-more-card p {
@@ -154,6 +155,11 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 20px;
+}
+
+#learn-more-text {
+    font-weight: bold;
 }
 
 /*Placeholder*/

@@ -15,6 +15,10 @@
 box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 /*Fullscreen Movie Background*/
 #background-image {
     position: relative;
@@ -220,6 +224,8 @@ border-radius: 4px;
 }
 /*Trending Now Scroll Bar*/
 
-
+.scrollbar {
+    color: whitesmoke;
+}
 
 /*Placeholder*/

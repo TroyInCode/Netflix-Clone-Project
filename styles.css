@@ -129,7 +129,7 @@ button:hover {
 /*Information after the main section*/
 
 #after-curved-line {
-    background: linear-gradient(to bottom, rgba(64, 97, 231, 0.4) 10%, rgb(0, 0, 0) 90%);
+    background: linear-gradient(to bottom, rgb(7, 1, 25),rgb(2, 8, 75) ,rgb(64, 97, 231));
     padding: 0 80px;
 }
 
@@ -226,6 +226,20 @@ border-radius: 4px;
 
 .scrollbar {
     color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.scrollbar li {
+    border: 1px solid #000;
+    height: 100px;
+    width: 100px;
+}
+
+.scrollbar img {
+    border-radius: 8px;
 }
 
 /*Placeholder*/

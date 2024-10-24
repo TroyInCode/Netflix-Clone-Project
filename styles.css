@@ -238,9 +238,14 @@ border-radius: 4px;
     position: relative;
 }
 
+.scrollbar li:hover {
+    cursor: pointer;
+}
+
 .scrollbar img {
     border-radius: 8px;
-    display: block;
+    height: 204px;
+    width: 146px;
 }
 
 span.movie-number {
@@ -250,7 +255,8 @@ span.movie-number {
     float: left;
     position: absolute;
     top: 120px;
-    right: 120px;
+    right: 130px;
+    -webkit-text-stroke: 3px #ffff;
 }
 
 /*Placeholder*/

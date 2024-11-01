@@ -258,5 +258,21 @@ span.movie-number {
     right: 130px;
     -webkit-text-stroke: 3px #ffff;
 }
+/*Reasons to Join Section*/
 
+.join-reasons {
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+}
+
+.reasons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#reason-text {
+    color: white;
+}
 /*Placeholder*/

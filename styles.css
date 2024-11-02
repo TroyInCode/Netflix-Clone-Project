@@ -285,5 +285,15 @@ span.movie-number {
 
 #reason-text {
     color: white;
+    font-family: var(--Netflix-Font-Light);
+}
+
+.join-reasons img {
+    height: 58px;
+    width: 58px;
+}
+
+.more-reasons {
+    margin-top: 85px;
 }
 /*Placeholder*/

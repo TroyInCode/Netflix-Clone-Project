@@ -291,6 +291,17 @@ span.movie-number {
 .join-reasons img {
     height: 58px;
     width: 58px;
+    position: relative;
+}
+
+#monitor {
+  left: 90px;
+  top: 5px;  
+}
+
+#arrow {
+    left: 100px;
+    top: 5px;
 }
 
 .more-reasons {

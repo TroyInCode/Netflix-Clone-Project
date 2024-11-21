@@ -304,6 +304,16 @@ span.movie-number {
     top: 5px;
 }
 
+#smiley {
+    left: 100px;
+    top: 5px;
+}
+
+#telescope {
+    left: 100px;
+    top: 20px;
+}
+
 .more-reasons {
     margin-top: 85px;
 }
